@@ -1,4 +1,5 @@
 #!/usr/bin/node
+<<<<<<< HEAD
 const arg1 = process.argv[2];
 const arg2 = process.argv[3];
 if (arg2 === undefined) {
@@ -16,3 +17,6 @@ if (arg2 === undefined) {
  *     } else {
  *       console.log('undefined is undefined');
  *         */
+=======
+console.log(process.argv[2] + ' is ' + process.argv[3]);
+>>>>>>> e40e274cee17ac00a5acd16876e98cc4a5d9dfa9
